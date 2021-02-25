@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  button {
+    font: inherit;
+    padding: 0.25rem 0.5rem;
+    background: #01aa17;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #1c6119;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  main {
+    padding-top: 75px;
+  }
+
+  .Appbar{
+    background-color:cornflowerblue;
+    padding: 10px;
+  }
+
+  .Apptitle{
+    float: left;
+    color: cornsilk;
+  }
+
+  .nav{
+    padding-left: 20px;
+  }
+
+  .errors{
+    color: red;
+    font-size: 12px;
+    display: inline;
+  }
+
+  .form{
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  .txt-fields{
+    display: inline;
+    width: 100px;
+  }
+
+  .text-input{
+    display:block;
+  }
